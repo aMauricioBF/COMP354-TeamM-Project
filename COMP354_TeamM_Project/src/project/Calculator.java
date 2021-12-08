@@ -94,7 +94,7 @@ public class Calculator {
 				memory = memory + Double.parseDouble(input[1]);
 			}
 			return memory;
-		case "SUBSTRACT":
+		case "SUBTRACT":
 			if (input.length == 3) {
 				System.out.println(Double.parseDouble(input[1]) + " - " + Double.parseDouble(input[2]));
 				memory = Double.parseDouble(input[1]) - Double.parseDouble(input[2]);
