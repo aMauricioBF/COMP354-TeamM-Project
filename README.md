@@ -36,6 +36,7 @@ Our help menu is there to explain how the operations work, but in case it isn't 
 * In the calculator menu, type MAIN (or any sentence starting with MAIN) to return to the main menu.
 
 ### Dependencies used
+The project was implemented in Java
 
 
 ### Coding Standards
