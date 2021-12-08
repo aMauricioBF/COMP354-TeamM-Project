@@ -1,7 +1,7 @@
 package project;
 
 enum Operators{ //List of operators
-	ADD, SUBSTRACT, MULTIPLY, DIVIDE, REMAINDER, IF, LOOP
+	ADD, SUBTRACT, MULTIPLY, DIVIDE, REMAINDER, IF, LOOP
 }
 
 public class Library {
