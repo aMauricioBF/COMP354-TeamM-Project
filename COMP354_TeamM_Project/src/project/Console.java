@@ -28,7 +28,7 @@ public class Console {
 				break;
 			case "3": //Help menu, explains how the program works
 				System.out.println("The Simplex Calculator is made to do some simple arithmetic using natural language! With the proper syntax, you can make a small algorithm to do some simple calculations! Here's how it works: "
-						+ "\n\nThere are currently 5 basic operations that you can use, in addition to two logical operations. The 5 basic operations are: ADD, SUBSTRACT, MULTIPLY, DIVIDE and REMAINDER."
+						+ "\n\nThere are currently 5 basic operations that you can use, in addition to two logical operations. The 5 basic operations are: ADD, SUBTRACT, MULTIPLY, DIVIDE and REMAINDER."
 						+ "\nAll 5 share the same syntax: OPERATOR NUMBER NUMBER. Using these, the program will take the first number and do the correct operation with the second number. Here's an example:"
 						+ "\n\"ADD 5 2\" will add 2 to 5 (5+2), which results to 7!"
 						+ "\n\"DIVIDE 12 3\" will divide 12 by 3 (12/3), which results to 4!"
