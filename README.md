@@ -23,7 +23,17 @@ Documentation to this project is found here:
 
 
 ### Instructions
-
+Simply open the Main.java class and run it. A menu will appear and you can navigate using the keyboard (by typing 1, 2, 3, 4).
+Our help menu is there to explain how the operations work, but in case it isn't clear enough, here are more instructions: 
+* Our ADD, SUBTRACT, MULTIPLY, DIVIDE and REMAINDER operations are pretty self explanatory. To use them you must first type the operator followed by one or two numbers.
+  If there are two numbers, it will use them both for the calculation. If there's only one number, the saved result in the memory will be used as the first number.
+  E.G. "ADD 2 3" will do 2+3. "ADD 2" will add 2 to our saved value (memory + 2).
+* Our IF and LOOP are logical operation that require a condition followed by one basic operator shown above. The condition is limited to a comparison of our memory value with
+  a number. The comparison is limited to a "greater or equal (>)" or a "smaller or equal (<)" statement. The IF will check if the condition is true, then do the calculation
+  if it is. The LOOP acts as a WHILE loop, repeating the calculation as long as the condition is true (up to 10 iterations). In both cases, if the condition is false, it simply
+  returns the current memory value.
+  E.G. "IF < 3 ADD 3 4" -> if the memory value is under 3, do 3+4. "LOOP > 0 MULTIPLY 5" -> while the memory value is over 0, multiply the memory value by 5.
+* In the calculator menu, type MAIN (or any sentence starting with MAIN) to return to the main menu.
 
 ### Dependencies used
 
